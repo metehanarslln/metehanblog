@@ -1,0 +1,45 @@
+body {
+    background-color: #333; /* Koyu arka plan rengi */
+    color: #ffffff; /* Beyaz yazı rengi */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.welcome {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #ffffff; /* Beyaz başlık rengi */
+}
+
+h2 {
+    font-size: 36px;
+    color: #ffffff; /* Beyaz alt başlık rengi */
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffcc00; /* Vurgulu sarı renk */
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
